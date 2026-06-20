@@ -25,9 +25,16 @@ youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: conten
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-section-renderer:has(ytd-rich-item-renderer[is-post])
 www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer[is-post]
 
-! Jan 25, 2026 https://www.youtube.com
+! additional fixes
 www.youtube.com##.ytdTalkToRecsFlowRendererFlowContent
 www.youtube.com###foreground-content
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(5)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(4)
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope > .ytd-rich-section-renderer.style-scope
+
+! block "Your Custom Feed" AI slop
+www.youtube.com##.ytChipShapeStartIconPadding.ytChipShapeInactive.ytChipShapeChip > .ytSpecTouchFeedbackShapeTouchResponse.ytSpecTouchFeedbackShapeHost > .ytSpecTouchFeedbackShapeFill
+www.youtube.com##.ytChipShapeStartIconPadding.ytChipShapeInactive.ytChipShapeChip > .ytSpecTouchFeedbackShapeTouchResponse.ytSpecTouchFeedbackShapeHost > .ytSpecTouchFeedbackShapeStroke
+www.youtube.com##.ytChipShapeStartIconPadding.ytChipShapeInactive.ytChipShapeChip > .ytSpecTouchFeedbackShapeTouchResponse.ytSpecTouchFeedbackShapeHost
+www.youtube.com##.ytChipShapeStartIconPadding.ytChipShapeInactive.ytChipShapeChip > div
+www.youtube.com##.ytChipShapeStartIconPadding.ytChipShapeInactive.ytChipShapeChip
